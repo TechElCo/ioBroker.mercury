@@ -447,7 +447,8 @@ function connectSerial(){
 }
 
 function connectTCP(){
-    adapter.log.debug('Connect to ' + adapter.config.ip + ':' + adapter.config.tcpport);
+    adapter.log.info('Connect to ' + adapter.config.ip + ':' + adapter.config.tcpport);
+    mercury && mercury.destroy();
     mercury = new net.Socket();
     mercury.connect({host: adapter.config.ip, port: adapter.config.tcpport}, () => {
         adapter.log.info('Connected to server ' + adapter.config.ip + ':' + adapter.config.tcpport);
