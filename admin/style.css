@@ -48,4 +48,10 @@ img.activator {
     right: 0.5rem;
 }
 
+#preloader_{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
 /* Add your styles here */

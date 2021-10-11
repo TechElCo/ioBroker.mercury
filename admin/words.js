@@ -421,17 +421,17 @@ systemDictionary = {
         'pl':    'Brak odpowiedzi, spróbuj ponownie',
         'zh-cn': '无回应，请重试请求'
     },
-    "No connection to the device":                                                   {
-        "en":    "No connection to the device",
-        "de":    "Keine Verbindung zum Gerät",
-        "ru":    "Нет связи с устройством",
-        "pt":    "Sem conexão com o dispositivo",
-        "nl":    "Geen verbinding met het apparaat",
-        "fr":    "Pas de connexion à l'appareil",
-        "it":    "Nessuna connessione al dispositivo",
-        "es":    "Sin conexión con el dispositivo",
-        "pl":    "Brak połączenia z urządzeniem",
-        "zh-cn": "没有连接到设备"
+    'No connection to the device':                                                   {
+        'en':    'No connection to the device',
+        'de':    'Keine Verbindung zum Gerät',
+        'ru':    'Нет связи с устройством',
+        'pt':    'Sem conexão com o dispositivo',
+        'nl':    'Geen verbinding met het apparaat',
+        'fr':    'Pas de connexion à l\'appareil',
+        'it':    'Nessuna connessione al dispositivo',
+        'es':    'Sin conexión con el dispositivo',
+        'pl':    'Brak połączenia z urządzeniem',
+        'zh-cn': '没有连接到设备'
     },
     'Error opening communication channel':                                           {
         'en':    'Error opening communication channel',

@@ -33,6 +33,7 @@ function load(settings, onChange){
 }
 
 $(document).ready(function (){
+    preloader(false);
     sockets();
     $('.modal').modal();
     $('#typeconnect').on('change', selectTypeConn);
