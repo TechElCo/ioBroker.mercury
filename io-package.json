@@ -108,6 +108,9 @@
       "Mercury",
       "electric meter"
     ],
+    "adminUI": {
+      "config": "materialize"
+    },
     "license": "MIT",
     "platform": "Javascript/Node.js",
     "main": "main.js",
