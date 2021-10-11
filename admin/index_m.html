@@ -11,25 +11,27 @@
     <script type="text/javascript" src="admin.js"></script>
     <script type="text/javascript" src="words.js"></script>
     <script>
-        $(function(){
+        $(function (){
             $("<div class=\"m row donate\" style='display:block;position:absolute;bottom:130px;'>" +
                 "<div class=\"col right\">" +
                 "<div class=\"col\" style=\"margin-top:10px;float:right;margin-right:20px;\">" +
                 "<a target=\"_blank\" href=\"https://sobe.ru/na/instalator\"><img style=\"float:right;\" src=\"https://img.shields.io/badge/Donate-YooMoney-green\" alt=\"\"></a>" +
-                "<a target=\"_blank\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PFUALWTR2CTPY\"><img style=\"float:right;padding-right:10px;\" src=\"https://img.shields.io/badge/Donate-PayPal-green.svg\" alt=\"\"></a>"+
-                "</div></div></div>").appendTo(".adapter-body").animate({right:0},700).animate({ 'zoom': 1.5}, 300);
-                setTimeout(function() {
-                    $(".donate").animate({ 'zoom': 1}, 400);
-                }, 700);
+                "<a target=\"_blank\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PFUALWTR2CTPY\"><img style=\"float:right;padding-right:10px;\" src=\"https://img.shields.io/badge/Donate-PayPal-green.svg\" alt=\"\"></a>" +
+                "</div></div></div>").appendTo(".adapter-body").animate({right: 0}, 700).animate({'zoom': 1.5}, 300);
+            setTimeout(function (){
+                $(".donate").animate({'zoom': 1}, 400);
+            }, 700);
         });
     </script>
     <style>
         .adapter-body {
             display: block;
         }
-        .m .input-field>label {
+
+        .m .input-field > label {
             color: #5a5a5a;
         }
+
         .adapter-body::after {
             top: 0;
             left: 0;
@@ -163,7 +165,6 @@
         </div>
     </div>
 
-
     <!-- modalsettings  -->
     <div id="modalsettings" class="modal modalsettings modal-fixed-footer">
         <div id="modal-settings" class="modal-content">
@@ -205,7 +206,6 @@
         </div>
     </div>
 
-
     <!-- modaladd   -->
     <div id="modaladd" class="modal modaladd modal-fixed-footer">
         <div id="modal-add" class="modal-content">
@@ -245,9 +245,7 @@
         </div>
     </div>
 
-
     <!-- modalconfig   -->
-
     <div id="modalconfig" class="modal modal-fixed-footer">
         <div id="modal-content" class="modal-content">
             <h6>Конфигурация счетчика</h6>
@@ -264,8 +262,7 @@
                 <div class="row s12">
                     <div class="col s12">
                         <br>
-                        <label class="translate">На данной вкладке можно настроить внутренние часы
-                            подключенного устройства</label>
+                        <label class="translate">На данной вкладке можно настроить внутренние часы подключенного устройства</label>
                     </div>
                 </div>
                 <div class="row">
@@ -392,8 +389,7 @@
                 <div class="row s12">
                     <div class="col s12">
                         <br>
-                        <label class="translate">На данной вкладке можно произвести настройку режима
-                            индикации счетчика</label>
+                        <label class="translate">На данной вкладке можно произвести настройку режима индикации счетчика</label>
                     </div>
                 </div>
                 <div class="row">
@@ -652,7 +648,6 @@
             </div>
         </div>
     </div>
-
-
+</div>
 </body>
 </html>
