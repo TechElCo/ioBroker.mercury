@@ -3,7 +3,7 @@ const namespace = 'mercury.' + instance,
 let devices = [];
 let options = {};
 let serialPorts = [];
-let lang;
+let lang, timeoutPreloaderStart;
 
 function load(settings, onChange){
     if (!settings) return;
@@ -78,6 +78,17 @@ $(document).ready(function (){
     M.updateTextFields();
 });
 
+function preloader(state){
+    if (state){
+        timeoutPreloaderStart = setTimeout(function (){
+            $('#preloader_').css({display: 'block'});
+        }, 200);
+    } else {
+        timeoutPreloaderStart && clearTimeout(timeoutPreloaderStart);
+        $('#preloader_').css({display: 'none'});
+    }
+}
+
 function findeDevice(){
     const addr = $('#address').val();
     const model = $('#meters-list-add option:selected').val();
@@ -86,13 +97,13 @@ function findeDevice(){
     if (model){
         console.log('/////findeDevice///addr/// ' + JSON.stringify(addr));
         console.log('/////findeDevice///model/// ' + JSON.stringify(model));
-        window.parent.$('#connecting').show();
+        preloader(true);
         const timer = setTimeout(function (){
-            window.parent.$('#connecting').hide();
+            preloader(false);
             showMessage(_('No response, retry the request'), _('Error'), 'error_outline');
         }, 15000);
         sendTo(namespace, 'findDevice', {addr, model, user, pwd}, function (msg){
-            window.parent.$('#connecting').hide();
+            preloader(false);
             //console.log('/////findeDevice///msg/// ' + JSON.stringify(msg));
             clearTimeout(timer);
             if (msg){

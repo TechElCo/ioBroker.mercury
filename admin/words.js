@@ -1,7 +1,7 @@
 /*global systemDictionary:true */
 'use strict';
 systemDictionary = {
-    'mercury adapter':                                                                {
+    'mercury adapter':                                                               {
         'en':    'Adapter settings for mercury',
         'de':    'Adaptereinstellungen für mercury',
         'ru':    'Настройки адаптера mercury',
@@ -13,7 +13,7 @@ systemDictionary = {
         'pl':    'Ustawienia adaptera dla mercury',
         'zh-cn': 'mercury的适配器设置'
     },
-    'devices':                                                                        {
+    'devices':                                                                       {
         'en':    'Devices',
         'de':    'Geräte',
         'ru':    'Устройства',
@@ -25,7 +25,7 @@ systemDictionary = {
         'pl':    'Urządzenia',
         'zh-cn': '设备'
     },
-    'settings':                                                                       {
+    'settings':                                                                      {
         'en':    'Settings',
         'de':    'die Einstellungen',
         'ru':    'Настройки',
@@ -37,7 +37,7 @@ systemDictionary = {
         'pl':    'Ustawienia',
         'zh-cn': '设定值'
     },
-    'typeconnect':                                                                    {
+    'typeconnect':                                                                   {
         'en':    'Connection type',
         'de':    'Verbindungstyp',
         'ru':    'Тип соединения',
@@ -49,7 +49,7 @@ systemDictionary = {
         'pl':    'Rodzaj połączenia',
         'zh-cn': '连接类型'
     },
-    'ip':                                                                             {
+    'ip':                                                                            {
         'en':    'IP-address',
         'de':    'IP-adrese',
         'ru':    'IP-адрес',
@@ -61,7 +61,7 @@ systemDictionary = {
         'pl':    'IP-adres',
         'zh-cn': 'IP-地址'
     },
-    'tcpport':                                                                        {
+    'tcpport':                                                                       {
         'en':    'Port',
         'de':    'Hafen',
         'ru':    'Порт',
@@ -73,7 +73,7 @@ systemDictionary = {
         'pl':    'Port',
         'zh-cn': '端口'
     },
-    'tcp':                                                                            {
+    'tcp':                                                                           {
         'en':    'TCP/IP',
         'de':    'TCP/IP',
         'ru':    'TCP/IP',
@@ -85,7 +85,7 @@ systemDictionary = {
         'pl':    'TCP/IP',
         'zh-cn': 'TCP/IP'
     },
-    'usb':                                                                            {
+    'usb':                                                                           {
         'en':    'USB/COM',
         'de':    'USB/COM',
         'ru':    'USB/COM',
@@ -97,7 +97,7 @@ systemDictionary = {
         'pl':    'USB/COM',
         'zh-cn': 'USB/COM'
     },
-    'baud':                                                                           {
+    'baud':                                                                          {
         'en':    'Baudrate',
         'de':    'Datenrate',
         'ru':    'Скорость передачи данных',
@@ -109,7 +109,7 @@ systemDictionary = {
         'pl':    'Szybkość transmisji danych',
         'zh-cn': '资料速率'
     },
-    'usbport':                                                                        {
+    'usbport':                                                                       {
         'en':    'COM-Port',
         'de':    'COM-Hafen',
         'ru':    'COM-Порт',
@@ -121,7 +121,7 @@ systemDictionary = {
         'pl':    'COM-Port',
         'zh-cn': 'COM-端口'
     },
-    'parity':                                                                         {
+    'parity':                                                                        {
         'en':    'Parity',
         'de':    'Parität',
         'ru':    'Четность',
@@ -133,7 +133,7 @@ systemDictionary = {
         'pl':    'Parzystość',
         'zh-cn': '平价'
     },
-    'timeoutresponse':                                                                {
+    'timeoutresponse':                                                               {
         'en':    'Response Timeout (ms)',
         'de':    'Antwortzeitlimit (ms)',
         'ru':    'Время ожидания ответа (мс)',
@@ -145,7 +145,7 @@ systemDictionary = {
         'pl':    'Limit czasu odpowiedzi (ms)',
         'zh-cn': '响应超时 (ms)'
     },
-    'systemtimeout':                                                                  {
+    'systemtimeout':                                                                 {
         'en':    'System Timeout (ms)',
         'de':    'System-Timeout (ms)',
         'ru':    'Системный таймаут (мс)',
@@ -157,7 +157,7 @@ systemDictionary = {
         'pl':    'Limit czasu systemu (ms)',
         'zh-cn': '系统超时 (ms)'
     },
-    'factortimeout':                                                                  {
+    'factortimeout':                                                                 {
         'en':    'System tmeout multiplier',
         'de':    'System timeout multiplikator',
         'ru':    'Множитель системного таймаута',
@@ -169,7 +169,7 @@ systemDictionary = {
         'pl':    'Mnożnik limitu czasu systemu',
         'zh-cn': '系统超时倍增器'
     },
-    'model':                                                                          {
+    'model':                                                                         {
         'en':    'Counter model',
         'de':    'Gegenmodell',
         'ru':    'Модель счетчика',
@@ -181,7 +181,7 @@ systemDictionary = {
         'pl':    'Model licznika',
         'zh-cn': '柜台型号'
     },
-    'address':                                                                        {
+    'address':                                                                       {
         'en':    'Counter network address',
         'de':    'Zählernetzwerkadresse',
         'ru':    'Сетевой адрес счетчика',
@@ -193,7 +193,7 @@ systemDictionary = {
         'pl':    'Licznik adresu sieciowego',
         'zh-cn': '柜台网络地址'
     },
-    'user':                                                                           {
+    'user':                                                                          {
         'en':    'User',
         'de':    'Benutzer',
         'ru':    'Пользователь',
@@ -205,7 +205,7 @@ systemDictionary = {
         'pl':    'Użytkownik',
         'zh-cn': '用户名'
     },
-    'admin':                                                                          {
+    'admin':                                                                         {
         'en':    'Administrator',
         'de':    'Admin',
         'ru':    'Администратор',
@@ -217,7 +217,7 @@ systemDictionary = {
         'pl':    'Administrator',
         'zh-cn': '管理员'
     },
-    'password':                                                                       {
+    'password':                                                                      {
         'en':    'Password',
         'de':    'Passwort',
         'ru':    'Пароль',
@@ -229,7 +229,7 @@ systemDictionary = {
         'pl':    'Hasło',
         'zh-cn': '密码'
     },
-    'name':                                                                           {
+    'name':                                                                          {
         'en':    'Name',
         'de':    'Vorname',
         'ru':    'Имя',
@@ -241,7 +241,7 @@ systemDictionary = {
         'pl':    'Imię',
         'zh-cn': '名'
     },
-    'cancel':                                                                         {
+    'cancel':                                                                        {
         'en':    'Cancel',
         'de':    'Abbrechen',
         'ru':    'Отмена',
@@ -253,7 +253,7 @@ systemDictionary = {
         'pl':    'Anuluj',
         'zh-cn': '取消'
     },
-    'agree':                                                                          {
+    'agree':                                                                         {
         'en':    'OK',
         'de':    'OK',
         'ru':    'OK',
@@ -265,7 +265,7 @@ systemDictionary = {
         'pl':    'OK',
         'zh-cn': 'OK'
     },
-    'find':                                                                           {
+    'find':                                                                          {
         'en':    'Find',
         'de':    'Zu finden',
         'ru':    'Найти',
@@ -277,7 +277,7 @@ systemDictionary = {
         'pl':    'Znaleźć',
         'zh-cn': '寻找'
     },
-    'info':                                                                           {
+    'info':                                                                          {
         'en':    'Information',
         'de':    'Informationen',
         'ru':    'Информация',
@@ -289,7 +289,7 @@ systemDictionary = {
         'pl':    'Informacja',
         'zh-cn': '资讯中心'
     },
-    'input addres or sn':                                                             {
+    'input addres or sn':                                                            {
         'en':    'Enter counter address or serial number',
         'de':    'Geben Sie die Zähleradresse oder Seriennummer ein',
         'ru':    'Введите адрес или серийный номер счетчика',
@@ -301,7 +301,7 @@ systemDictionary = {
         'pl':    'Wpisz adres licznika lub numer seryjny',
         'zh-cn': '输入柜台地址或序列号'
     },
-    'add counter':                                                                    {
+    'add counter':                                                                   {
         'en':    'Add counter',
         'de':    'Zähler hinzufügen',
         'ru':    'Добавить счетчик',
@@ -313,7 +313,7 @@ systemDictionary = {
         'pl':    'Dodaj licznik',
         'zh-cn': '添加柜台'
     },
-    'Error':                                                                          {
+    'Error':                                                                         {
         'en':    'Error',
         'de':    'Fehler',
         'ru':    'Ошибка',
@@ -325,7 +325,7 @@ systemDictionary = {
         'pl':    'Błąd',
         'zh-cn': '失误'
     },
-    'extended':                                                                       {
+    'extended':                                                                      {
         'en':    'Extended Answer Mode',
         'de':    'Erweiterter Antwortmodus',
         'ru':    'Расширенный режим ответа',
@@ -337,7 +337,7 @@ systemDictionary = {
         'pl':    'Tryb rozszerzonej odpowiedzi',
         'zh-cn': '扩展应答模式'
     },
-    'addres or sn':                                                                   {
+    'addres or sn':                                                                  {
         'en':    'Address or Serial Number',
         'de':    'Adresse oder Seriennummer',
         'ru':    'Адрес или серийный номер',
@@ -349,7 +349,7 @@ systemDictionary = {
         'pl':    'Adres lub numer seryjny',
         'zh-cn': '地址或序列号'
     },
-    'slowPollingTime':                                                                    {
+    'slowPollingTime':                                                               {
         'en':    'Polling period of non-main parameters (ms)',
         'de':    'Der Zeitraum der Umfrage ist nicht der Hauptparameter (ms)',
         'ru':    'Интервал между опросом не основных параметров (мс)',
@@ -361,7 +361,7 @@ systemDictionary = {
         'pl':    'Okres badania nie jest głównymi parametrami (ms)',
         'zh-cn': '调查期不是主要参数 (ms)'
     },
-    'fastPollingTime':                                                                    {
+    'fastPollingTime':                                                               {
         'en':    'Polling period main parameters (ms)',
         'de':    'Der Erhebungszeitraum der Hauptparameter (ms)',
         'ru':    'Интервал между опросом основных параметров (мс)',
@@ -373,7 +373,7 @@ systemDictionary = {
         'pl':    'Okres badania głównych parametrów (ms)',
         'zh-cn': '调查期主要参数 (ms)'
     },
-    'delete the device':                                                              {
+    'delete the device':                                                             {
         'en':    'Are you sure you want to delete the device?',
         'de':    'Möchten Sie das Gerät wirklich löschen?',
         'ru':    'Вы действительно хотите удалить устройство?',
@@ -385,7 +385,7 @@ systemDictionary = {
         'pl':    'Czy na pewno chcesz usunąć urządzenie?',
         'zh-cn': '调查期主要参数'
     },
-    'counter card settings':                                                          {
+    'counter card settings':                                                         {
         'en':    'Counter Card Settings',
         'de':    'Zählerkarteneinstellungen',
         'ru':    'Настройки карточки счетчика',
@@ -397,7 +397,7 @@ systemDictionary = {
         'pl':    'Ustawienia karty licznika',
         'zh-cn': '柜台卡设置'
     },
-    'driver is not running':                                                          {
+    'driver is not running':                                                         {
         'en':    'The driver is not running, first run the driver',
         'de':    'Der Treiber wird nicht ausgeführt. Führen Sie zuerst den Treiber aus',
         'ru':    'Драйвер не запущен, сначала запустите драйвер',
@@ -409,7 +409,7 @@ systemDictionary = {
         'pl':    'Sterownik nie działa, najpierw uruchom sterownik',
         'zh-cn': '驱动程序未运行，请先运行驱动程序'
     },
-    'No response, retry the request':                                                 {
+    'No response, retry the request':                                                {
         'en':    'No response, retry the request',
         'de':    'Keine Antwort, wiederholen Sie die Anfrage',
         'ru':    'Нет ответа, повторите запрос',
@@ -421,7 +421,19 @@ systemDictionary = {
         'pl':    'Brak odpowiedzi, spróbuj ponownie',
         'zh-cn': '无回应，请重试请求'
     },
-    'Error opening communication channel':                                            {
+    "No connection to the device":                                                   {
+        "en":    "No connection to the device",
+        "de":    "Keine Verbindung zum Gerät",
+        "ru":    "Нет связи с устройством",
+        "pt":    "Sem conexão com o dispositivo",
+        "nl":    "Geen verbinding met het apparaat",
+        "fr":    "Pas de connexion à l'appareil",
+        "it":    "Nessuna connessione al dispositivo",
+        "es":    "Sin conexión con el dispositivo",
+        "pl":    "Brak połączenia z urządzeniem",
+        "zh-cn": "没有连接到设备"
+    },
+    'Error opening communication channel':                                           {
         'en':    'Error opening communication channel',
         'de':    'Fehler beim Öffnen des Kommunikationskanals',
         'ru':    'Ошибка отрытия канала связи',
@@ -433,7 +445,7 @@ systemDictionary = {
         'pl':    'Błąd podczas otwierania kanału komunikacji',
         'zh-cn': '打开通讯通道时出错'
     },
-    'Invalid data specified':                                                         {
+    'Invalid data specified':                                                        {
         'en':    'Invalid data specified',
         'de':    'Ungültige Daten angegeben',
         'ru':    'Заданы не корректные данные',
@@ -445,7 +457,7 @@ systemDictionary = {
         'pl':    'Podano nieprawidłowe dane',
         'zh-cn': '指定的数据无效'
     },
-    'No response':                                                                    {
+    'No response':                                                                   {
         'en':    'No response from the counter',
         'de':    'Keine Antwort vom Zähler',
         'ru':    'Нет ответа от счетчика',
@@ -457,7 +469,7 @@ systemDictionary = {
         'pl':    'Brak odpowiedzi z lady',
         'zh-cn': '柜台没有回应'
     },
-    'CRC Error':                                                                      {
+    'CRC Error':                                                                     {
         'en':    'CRC Error',
         'de':    'Prüfsummenfehler CRC',
         'ru':    'Ошибка котнтрольной суммы CRC',
@@ -469,7 +481,7 @@ systemDictionary = {
         'pl':    'Błąd sumy kontrolnej CRC',
         'zh-cn': '校验和错误 CRC'
     },
-    'Location':                                                                       {
+    'Location':                                                                      {
         'en':    'Location',
         'de':    'Lage',
         'ru':    'Местоположение',
@@ -481,7 +493,7 @@ systemDictionary = {
         'pl':    'Lokalizacja',
         'zh-cn': '所在位置'
     },
-    'Serial number':                                                                  {
+    'Serial number':                                                                 {
         'en':    'Serial number',
         'de':    'Seriennummer',
         'ru':    'Серийный номер',
@@ -493,7 +505,7 @@ systemDictionary = {
         'pl':    'Numer seryjny',
         'zh-cn': '序列号'
     },
-    'Production date':                                                                {
+    'Production date':                                                               {
         'en':    'Production date',
         'de':    'Produktionsdatum',
         'ru':    'Дата изготовления',
@@ -505,7 +517,7 @@ systemDictionary = {
         'pl':    'Data produkcji',
         'zh-cn': '生产日期'
     },
-    'Software version':                                                               {
+    'Software version':                                                              {
         'en':    'Software version',
         'de':    'Softwareversion',
         'ru':    'Версия ПО',
@@ -517,7 +529,7 @@ systemDictionary = {
         'pl':    'Wersja oprogramowania',
         'zh-cn': '软件版本'
     },
-    'Everything is fine':                                                             {
+    'Everything is fine':                                                            {
         'en':    'Everything is fine',
         'de':    'Alles ist normal',
         'ru':    'Всё в норме',
@@ -529,7 +541,7 @@ systemDictionary = {
         'pl':    'Wszystko jest normalne',
         'zh-cn': '一切正常'
     },
-    'Invalid command or parameter':                                                   {
+    'Invalid command or parameter':                                                  {
         'en':    'Invalid command or parameter',
         'de':    'Ungültiger Befehl oder Parameter',
         'ru':    'Недопустимая команда или параметр',
@@ -541,7 +553,7 @@ systemDictionary = {
         'pl':    'Niepoprawne polecenie lub parametr',
         'zh-cn': '无效的命令或参数'
     },
-    'Not enough level to satisfy request':                                            {
+    'Not enough level to satisfy request':                                           {
         'en':    'Not enough level to satisfy request',
         'de':    'Nicht genug Level, um die Anfrage zu erfüllen',
         'ru':    'Недостаточен уровень для удовлетворения запроса',
@@ -565,7 +577,7 @@ systemDictionary = {
         'pl':    'Wewnętrzny zegar licznika został już wyregulowany w bieżącym dniu.',
         'zh-cn': '该计数器的内部时钟已在当天调整。'
     },
-    'Communication channel not open, try again later':                                {
+    'Communication channel not open, try again later':                               {
         'en':    'Communication channel not open, try again later',
         'de':    'Kommunikationskanal nicht geöffnet, versuchen Sie es später erneut',
         'ru':    'Не открыт канал связи, повторите попытку позже',
@@ -577,7 +589,7 @@ systemDictionary = {
         'pl':    'Kanał komunikacji nie jest otwarty, spróbuj ponownie później',
         'zh-cn': '通讯渠道未打开，请稍后再试'
     },
-    'CRC16 software':                                                                 {
+    'CRC16 software':                                                                {
         'en':    'CRC16 software',
         'de':    'CRC16 Gerätesoftware',
         'ru':    'CRC16 ПО прибора',
@@ -589,7 +601,7 @@ systemDictionary = {
         'pl':    'CRC16 Oprogramowanie urządzenia',
         'zh-cn': 'CRC16 设备软件'
     },
-    'Energy Class A+':                                                                {
+    'Energy Class A+':                                                               {
         'en':    'Energy Class A+',
         'de':    'Energieklasse A+',
         'ru':    'Класс энергии A+',
@@ -601,7 +613,7 @@ systemDictionary = {
         'pl':    'Klasa energetyczna A+',
         'zh-cn': '能源等级 A+'
     },
-    'Energy Class R+':                                                                {
+    'Energy Class R+':                                                               {
         'en':    'Energy Class R+',
         'de':    'Energy Class R+',
         'ru':    'Класс энергии R+',
@@ -613,7 +625,7 @@ systemDictionary = {
         'it':    'Energy Class R+',
         'zh-cn': 'Energy Class R+'
     },
-    'Rated voltage':                                                                  {
+    'Rated voltage':                                                                 {
         'en':    'Rated voltage',
         'de':    'Rated voltage',
         'ru':    'Номинальное напряжение',
@@ -625,7 +637,7 @@ systemDictionary = {
         'it':    'Rated voltage',
         'zh-cn': 'Rated voltage'
     },
-    'Rated current':                                                                  {
+    'Rated current':                                                                 {
         'en':    'Rated current',
         'de':    'Rated current',
         'ru':    'Номинальный ток',
@@ -637,7 +649,7 @@ systemDictionary = {
         'it':    'Rated current',
         'zh-cn': 'Rated current'
     },
-    'Number of destinations':                                                         {
+    'Number of destinations':                                                        {
         'en':    'Number of destinations',
         'de':    'Number of destinations',
         'ru':    'Число направлений',
@@ -649,7 +661,7 @@ systemDictionary = {
         'it':    'Number of destinations',
         'zh-cn': 'Number of destinations'
     },
-    'Temperature Range':                                                              {
+    'Temperature Range':                                                             {
         'en':    'Temperature Range',
         'de':    'Temperature Range',
         'ru':    'Температурный диапазон',
@@ -661,7 +673,7 @@ systemDictionary = {
         'it':    'Temperature Range',
         'zh-cn': 'Temperature Range'
     },
-    'Medium Capacity Profile capacities':                                             {
+    'Medium Capacity Profile capacities':                                            {
         'en':    'Medium Capacity Profile capacities',
         'de':    'Medium Capacity Profile capacities',
         'ru':    'Учет профиля сред. мощностей',
@@ -673,7 +685,7 @@ systemDictionary = {
         'it':    'Medium Capacity Profile capacities',
         'zh-cn': 'Medium Capacity Profile capacities'
     },
-    'Number of phases':                                                               {
+    'Number of phases':                                                              {
         'en':    'Number of phases',
         'de':    'Number of phases',
         'ru':    'Число фаз',
@@ -685,7 +697,7 @@ systemDictionary = {
         'it':    'Number of phases',
         'zh-cn': 'Number of phases'
     },
-    'Counter constant':                                                               {
+    'Counter constant':                                                              {
         'en':    'Counter constant',
         'de':    'Counter constant',
         'ru':    'Постоянная счетчика',
@@ -697,7 +709,7 @@ systemDictionary = {
         'it':    'Counter constant',
         'zh-cn': 'Counter constant'
     },
-    'Phase Summation':                                                                {
+    'Phase Summation':                                                               {
         'en':    'Phase Summation',
         'de':    'Phase Summation',
         'ru':    'Суммирование фаз',
@@ -709,7 +721,7 @@ systemDictionary = {
         'it':    'Phase Summation',
         'zh-cn': 'Phase Summation'
     },
-    'Tariff':                                                                         {
+    'Tariff':                                                                        {
         'en':    'Tariff',
         'de':    'Tariff',
         'ru':    'Тарификатор',
@@ -721,7 +733,7 @@ systemDictionary = {
         'it':    'Tariff',
         'zh-cn': 'Tariff'
     },
-    'Counter type':                                                                   {
+    'Counter type':                                                                  {
         'en':    'Counter type',
         'de':    'Counter type',
         'ru':    'Тип счетчика',
@@ -733,7 +745,7 @@ systemDictionary = {
         'it':    'Counter type',
         'zh-cn': 'Counter type'
     },
-    'Execution option':                                                               {
+    'Execution option':                                                              {
         'en':    'Execution option',
         'de':    'Execution option',
         'ru':    'Вариант исполнения',
@@ -745,7 +757,7 @@ systemDictionary = {
         'it':    'Execution option',
         'zh-cn': 'Execution option'
     },
-    'Memory':                                                                         {
+    'Memory':                                                                        {
         'en':    'Memory',
         'de':    'Memory',
         'ru':    'Объем памяти',
@@ -757,7 +769,7 @@ systemDictionary = {
         'it':    'Memory',
         'zh-cn': 'Memory'
     },
-    'Built-in PLM Modem':                                                             {
+    'Built-in PLM Modem':                                                            {
         'en':    'Built-in PLM Modem',
         'de':    'Built-in PLM Modem',
         'ru':    'Встроенный модем PLM',
@@ -769,7 +781,7 @@ systemDictionary = {
         'it':    'Built-in PLM Modem',
         'zh-cn': 'Built-in PLM Modem'
     },
-    'Built in GSM Modem':                                                             {
+    'Built in GSM Modem':                                                            {
         'en':    'Built in GSM Modem',
         'de':    'Built in GSM Modem',
         'ru':    'Встроенный модем GSM',
@@ -781,7 +793,7 @@ systemDictionary = {
         'it':    'Built in GSM Modem',
         'zh-cn': 'Built in GSM Modem'
     },
-    'Optical port':                                                                   {
+    'Optical port':                                                                  {
         'en':    'Optical port',
         'de':    'Optical port',
         'ru':    'Оптопорт',
@@ -793,7 +805,7 @@ systemDictionary = {
         'it':    'Optical port',
         'zh-cn': 'Optical port'
     },
-    'Interface type':                                                                 {
+    'Interface type':                                                                {
         'en':    'Interface type',
         'de':    'Interface type',
         'ru':    'Тип интерфейса',
@@ -805,7 +817,7 @@ systemDictionary = {
         'it':    'Interface type',
         'zh-cn': 'Interface type'
     },
-    'External power':                                                                 {
+    'External power':                                                                {
         'en':    'External power',
         'de':    'External power',
         'ru':    'Внешнее питание',
@@ -817,7 +829,7 @@ systemDictionary = {
         'it':    'External power',
         'zh-cn': 'External power'
     },
-    'Top Seal Electronic Seal':                                                       {
+    'Top Seal Electronic Seal':                                                      {
         'en':    'Top Seal Electronic Seal',
         'de':    'Top Seal Electronic Seal',
         'ru':    'Элект. пломба верх. крышки',
@@ -829,7 +841,7 @@ systemDictionary = {
         'it':    'Top Seal Electronic Seal',
         'zh-cn': 'Top Seal Electronic Seal'
     },
-    'Built-in load shedding relay':                                                   {
+    'Built-in load shedding relay':                                                  {
         'en':    'Built-in load shedding relay',
         'de':    'Built-in load shedding relay',
         'ru':    'Встроен. реле отключ. нагруз.',
@@ -841,7 +853,7 @@ systemDictionary = {
         'it':    'Built-in load shedding relay',
         'zh-cn': 'Built-in load shedding relay'
     },
-    'LCD backlight':                                                                  {
+    'LCD backlight':                                                                 {
         'en':    'LCD backlight',
         'de':    'LCD backlight',
         'ru':    'Подсветка ЖКИ',
@@ -853,7 +865,7 @@ systemDictionary = {
         'it':    'LCD backlight',
         'zh-cn': 'LCD backlight'
     },
-    'Tariff metering of maximum power':                                               {
+    'Tariff metering of maximum power':                                              {
         'en':    'Tariff metering of maximum power',
         'de':    'Tariff metering of maximum power',
         'ru':    'Потариф. учет макс. мощности',
@@ -865,7 +877,7 @@ systemDictionary = {
         'it':    'Tariff metering of maximum power',
         'zh-cn': 'Tariff metering of maximum power'
     },
-    'Electronic seal of protective cover':                                            {
+    'Electronic seal of protective cover':                                           {
         'en':    'Electronic seal of protective cover',
         'de':    'Electronic seal of protective cover',
         'ru':    'Элект. пломба защит. крышки',
@@ -877,7 +889,7 @@ systemDictionary = {
         'it':    'Electronic seal of protective cover',
         'zh-cn': 'Electronic seal of protective cover'
     },
-    'Interface2':                                                                     {
+    'Interface2':                                                                    {
         'en':    'Interface2',
         'de':    'Interface2',
         'ru':    'Интерфейс2',
@@ -889,7 +901,7 @@ systemDictionary = {
         'it':    'Interface2',
         'zh-cn': 'Interface2'
     },
-    'Built-in Power Interface1':                                                      {
+    'Built-in Power Interface1':                                                     {
         'en':    'Built-in Power Interface 1',
         'de':    'Built-in Power Interface 1',
         'ru':    'Встроенное питание интерфейса1',
@@ -901,7 +913,7 @@ systemDictionary = {
         'it':    'Built-in Power Interface 1',
         'zh-cn': 'Built-in Power Interface 1'
     },
-    'PCE control':                                                                    {
+    'PCE control':                                                                   {
         'en':    'PCE control',
         'de':    'PCE control',
         'ru':    'Контроль ПКЭ',
@@ -913,7 +925,7 @@ systemDictionary = {
         'it':    'PCE control',
         'zh-cn': 'PCE control'
     },
-    'Phase energy metering A+':                                                       {
+    'Phase energy metering A+':                                                      {
         'en':    'Phase energy metering A +',
         'de':    'Phase energy metering A +',
         'ru':    'Пофазный учет энергии А+',
@@ -925,7 +937,7 @@ systemDictionary = {
         'it':    'Phase energy metering A +',
         'zh-cn': 'Phase energy metering A +'
     },
-    'Integrated PLC2 Modem':                                                          {
+    'Integrated PLC2 Modem':                                                         {
         'en':    'Integrated PLC2 Modem',
         'de':    'Integrated PLC2 Modem',
         'ru':    'Встроенный модем PLC2',
@@ -937,7 +949,7 @@ systemDictionary = {
         'it':    'Integrated PLC2 Modem',
         'zh-cn': 'Integrated PLC2 Modem'
     },
-    'Profile2':                                                                       {
+    'Profile2':                                                                      {
         'en':    'Profile2',
         'de':    'Profile2',
         'ru':    'Профиль2',
@@ -949,7 +961,7 @@ systemDictionary = {
         'it':    'Profile2',
         'zh-cn': 'Profile2'
     },
-    'Modular compartment electronic seal':                                            {
+    'Modular compartment electronic seal':                                           {
         'en':    'Modular compartment electronic seal',
         'de':    'Modular compartment electronic seal',
         'ru':    'Электронная пломба модульного отсека',
@@ -961,7 +973,7 @@ systemDictionary = {
         'it':    'Modular compartment electronic seal',
         'zh-cn': 'Modular compartment electronic seal'
     },
-    'Tariff switching by external voltage':                                           {
+    'Tariff switching by external voltage':                                          {
         'en':    'Tariff switching by external voltage',
         'de':    'Tariff switching by external voltage',
         'ru':    'Перекл. тарифов внешн. напр.',
@@ -973,7 +985,7 @@ systemDictionary = {
         'it':    'Tariff switching by external voltage',
         'zh-cn': 'Tariff switching by external voltage'
     },
-    'Voltage transformation ratio':                                                   {
+    'Voltage transformation ratio':                                                  {
         'en':    'Voltage transformation ratio',
         'de':    'Voltage transformation ratio',
         'ru':    'Коэф. трансформации по напряжению',
@@ -985,7 +997,7 @@ systemDictionary = {
         'it':    'Voltage transformation ratio',
         'zh-cn': 'Voltage transformation ratio'
     },
-    'Current transformer ratio':                                                      {
+    'Current transformer ratio':                                                     {
         'en':    'Current transformer ratio',
         'de':    'Current transformer ratio',
         'ru':    'Коэф. трансформации по току',
@@ -997,7 +1009,7 @@ systemDictionary = {
         'it':    'Current transformer ratio',
         'zh-cn': 'Current transformer ratio'
     },
-    'cosfTotal':                                                                      {
+    'cosfTotal':                                                                     {
         'en':    'Power factor average',
         'de':    'Power factor average',
         'ru':    'Коэффициент мощности средний',

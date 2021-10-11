@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "mercury",
-    "version": "0.1.6",
+    "version": "100.0.0",
     "news": {
+      "100.0.0": {
+        "en": "fixed preloader",
+        "de": "fixed preloader",
+        "ru": "fixed preloader",
+        "pt": "fixed preloader",
+        "nl": "fixed preloader",
+        "fr": "fixed preloader",
+        "it": "fixed preloader",
+        "es": "fixed preloader",
+        "pl": "fixed preloader",
+        "zh-cn": "fixed preloader"
+      },
       "0.1.6": {
         "en": "fixed a bug with polling multiple counters",
         "de": "fixed a bug with polling multiple counters",
